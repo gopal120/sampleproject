@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgb(29, 29, 41);
+  z-index: 20;
+}
+.navbar-list {
+  margin-left: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  min-height: 10vh;
+
+  /* margin: 0; */
+  align-items: center;
+  text-decoration: none;
+}
+.navbar-list_item {
+  list-style-type: none;
+}
+.active {
+  /* border-bottom: 2px solid white; */
+  color: white;
+}
+a {
+  color: rgb(128, 122, 122);
+  text-decoration: none;
+}
